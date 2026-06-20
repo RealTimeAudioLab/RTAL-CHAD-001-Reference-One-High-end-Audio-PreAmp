@@ -126,7 +126,7 @@ Goals:
 ## PCB (Top)
 
 <p align="center">
-<img src="images/pcb_top.jpg" width="400">
+<img src="images/pcb_top.jpg" width="900">
 </p>
 
 ------------------------------------------------------------------------
