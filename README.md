@@ -1,15 +1,52 @@
 # RTAL Reference One
+
 ## High-End Audio Control Preamplifier
+
 ### Engineering Design Study • April 1991
 
-<p align="center">
-<b>RealTimeAudioLab Engineering Heritage Collection</b><br>
-<i>Engineering Without Compromise • Since 1980</i>
 </p>
-
 ---
 
-> *"High-end audio is not created by expensive components. It is created by thoughtful engineering."*
+# RealTimeAudioLab
+
+## Engineering Heritage Collection
+
+### Collection I • Classic HiFi Audio Designs (1980-1995)
+
+</p>
+---
+
+# Volume I
+
+# RTAL-CHAD-001
+
+## Reference One
+
+**Engineering Without Compromise • Since 1980**
+
+
+------------------------------------------------------------------------
+
+> *"Engineering is remembered long after component prices are
+> forgotten."*
+
+------------------------------------------------------------------------
+
+# Welcome
+
+The **RTAL Reference One** is not a kit, a clone or a commercial reverse
+engineering project.
+
+It is an original engineering development created in **1991** to answer
+one fundamental question:
+
+> **Can a genuinely high-end audio control preamplifier be designed
+> using thoughtful engineering instead of an unlimited budget?**
+
+More than three decades later, the complete engineering archive is
+published for education, preservation and inspiration.
+
+------------------------------------------------------------------------
 
 # Hero Image
 
@@ -19,48 +56,54 @@
    *Figure 1 – High End PreAmp Frontview*
 
 </p>
----
 
-# Engineering Heritage
+------------------------------------------------------------------------
 
-The **RTAL Reference One** is a complete analog control preamplifier engineered in **1991** as an independent design study.
+# Engineering Significance
 
-Unlike a kit or clone, every major subsystem was developed specifically for this project:
+This repository contains much more than a circuit.
 
-- Electronics
-- PCB Layout
-- Mechanical Construction
-- Aluminium Enclosure
-- Front Panel
-- Wiring
-- Documentation
+It preserves the complete engineering development including
 
-This repository preserves the original engineering archive.
+-   Original prototype
+-   Original photographs
+-   Hand-drawn schematics
+-   Original PCB artwork
+-   Mechanical construction
+-   Engineering notes
+-   Historical documentation
 
----
+Every document included here was part of the original development
+process.
 
-# Design Objective
+------------------------------------------------------------------------
 
-Can a genuine high-end audio control preamplifier be developed using a realistic budget while maintaining uncompromising engineering quality?
+# Design Objectives
 
-This project was created to answer exactly that question.
+The Reference One was designed to become the heart of an entire HiFi
+installation.
 
----
+Supported sources included:
 
-# Design Philosophy
+-   CD Player
+-   Tuner
+-   Tape Deck
+-   DAT Recorder
+-   Phono
+-   Auxiliary Line Sources
 
-- Short signal paths
-- Low-noise architecture
-- Relay-based source selection
-- Independent Record and Listen paths
-- High-quality linear power supply
-- Modular construction
-- Serviceability
-- Timeless industrial design
+Goals:
 
----
+-   Exceptional sound quality
+-   Elegant operation
+-   Modular construction
+-   Serviceability
+-   Timeless appearance
+-   Affordable implementation
 
-# Gallery
+------------------------------------------------------------------------
+
+# Engineering Gallery
 
 ## Front View
 
@@ -79,48 +122,81 @@ This project was created to answer exactly that question.
 <p align="center">
 <img src="images/inside_2.jpg" width="900">
 </p>
----
 
-# System Architecture
+## PCB (Top)
 
-```text
-Inputs
-   │
-Relay Matrix
-   │
+<p align="center">
+<img src="images/pcb_top.jpg" width="400">
+</p>
+
+------------------------------------------------------------------------
+
+# Internal Architecture
+
+``` text
+Audio Inputs
+      │
+Relay Selection
+      │
 Input Buffer
-   │
+      │
 Record Bus
-   │
-Volume Control
-   │
+      │
+Precision Volume Control
+      │
 Output Buffer
- ├──► Line Output
+ ├──► Line Outputs
  └──► Headphone Amplifier
 ```
 
----
+------------------------------------------------------------------------
 
 # Original Engineering Archive
 
-This repository intentionally includes the original historical documentation:
+## Electronics
 
-- Original hand-drawn schematics
-- PCB artwork (April 1991)
-- Circuit block diagrams
-- Construction photographs
-- Mechanical design
-- User documentation
+-   Original analog schematics
+-   PCB artwork
+-   Functional blocks
 
-Nothing has been redrawn where the original documents better preserve the engineering history.
+## Mechanics
 
----
+-   Custom chassis
+-   Front panel
+-   Internal construction
 
-# Repository Layout
+## Documentation
 
-```text
+-   User manual
+-   Engineering notes
+-   Design history
+
+The historical documents are intentionally preserved without modern
+redesign.
+
+------------------------------------------------------------------------
+
+# Why this Repository Exists
+
+Many engineering developments disappear after a project has been
+completed.
+
+The purpose of this repository is to preserve not only the finished
+hardware but the engineering thinking behind it.
+
+This project demonstrates how a complete high-end audio product could be
+realised through engineering discipline rather than excessive cost.
+
+------------------------------------------------------------------------
+
+# Repository Structure
+
+``` text
 RTAL-Reference-One/
 ├── README.md
+├── CHANGELOG.md
+├── DESIGN_HISTORY.md
+├── ENGINEERING_NOTES.md
 ├── LICENSE
 ├── images/
 ├── schematics/
@@ -129,29 +205,32 @@ RTAL-Reference-One/
 └── hardware/
 ```
 
----
-
-# Historical Context
-
-Designed in 1991, the RTAL Reference One explored whether thoughtful engineering could rival expensive commercial high-end equipment.
-
-Today, it documents a complete engineering workflow from concept through finished hardware.
-
----
+------------------------------------------------------------------------
 
 # About RealTimeAudioLab
 
-RealTimeAudioLab documents more than four decades of engineering projects:
+RealTimeAudioLab documents independent engineering developments from
+1980 to today.
 
-- Classic HiFi Audio
-- Digital Audio
-- DSP
-- 6502
-- 8051
-- CPLD & GAL
-- MIDI
-- ESP32 Real-Time Audio
+## Collections
 
-## Engineering Heritage Collection
+-   Classic HiFi Audio Designs
+-   Classic Digital Audio Designs
+-   Embedded Audio DSP
+
+Each repository preserves an original engineering development together
+with its historical documentation.
+
+------------------------------------------------------------------------
+
+# Engineering Legacy
+
+The RTAL Reference One marks the beginning of the public
+**RealTimeAudioLab Engineering Heritage Collection**.
+
+Its purpose is not only to share hardware, but to preserve engineering
+knowledge for future generations.
+
+------------------------------------------------------------------------
 
 **Engineering Without Compromise • Since 1980**
